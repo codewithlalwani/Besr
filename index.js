@@ -8,7 +8,7 @@ gsap.to("#im",{
     scrollTrigger:{
        trigger:"#sec",
        start:"top 100%",
-    //    markers:true,
+   
        end:"top 60%",
        scrub: 3
     },
@@ -74,8 +74,6 @@ var tl = gsap.timeline({
         trigger:"#three",
         start: "23% 30%",
         end:"40% 40.6%",
-        markers:true,
-      
         scrub:2
     },
 
@@ -115,7 +113,7 @@ var tl2 = gsap.timeline({
         trigger:"#four",
         start: "center center",
         end:"55% 40.6%",
-        markers:true,
+    
         pin:true,
         scrub:2
     },
